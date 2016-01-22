@@ -1,0 +1,12 @@
+<div class="plateau-form">
+<%= form_tag("#{results_path}", method: "post") do %>
+
+    <div class="field">
+      <%= label_tag :plateau_data, t("plateau.enter_data"), :class=>"data-label" %><br>
+      <%= text_area_tag :plateau_data, nil, rows: 10, cols: 25 %>
+    </div>
+    <div class="actions">
+      <%= submit_tag t("plateau.process"), :class => "button success right" %>
+    </div>
+<% end %>
+</div>

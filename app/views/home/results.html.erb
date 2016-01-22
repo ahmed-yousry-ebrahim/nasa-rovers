@@ -1,0 +1,12 @@
+<h2>Results</h2>
+<%index = 1%>
+<%@plateau.rovers.each do |rover|%>
+
+<div>
+  <h3>Rover # <%=index%></h3>
+  <br/>
+  <h3><%=rover.x.to_s + " "+ rover.y.to_s + " " + rover.heading %></h3>
+</div>
+    <br/>
+    <%index = index + 1%>
+<%end%>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  horizonal_cells_number: 1
+  vertical_cells_number: 1
+
+two:
+  horizonal_cells_number: 1
+  vertical_cells_number: 1
